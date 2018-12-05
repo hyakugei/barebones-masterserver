@@ -13,7 +13,7 @@ public class MsfQuickBuild
     /// </summary>
     public static string QuickSetupRoot = "Assets/Barebones/Demos/QuickSetup";
 
-    public static BuildTarget TargetPlatform = BuildTarget.StandaloneWindows;
+    public static BuildTarget TargetPlatform = BuildTarget.StandaloneOSX;// BuildTarget.StandaloneWindows;
 
     /// <summary>
     /// Build with "Development" flag, so that we can see the console if something 
